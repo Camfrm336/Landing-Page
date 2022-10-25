@@ -48,14 +48,62 @@ ul, a {
 }
 button {
     border-radius: 5px;
+    border: #3882f6;
 }
 .headersignup {
     display: flex;
-    padding: 8px 16px;
+    padding: 8px 20px;
     font-size: 12px;
+    font-weight: bold;
     background-color: #3882f6;
     color: #f9faf8;
 }
 .headerimg {
     margin: 20px;
+}
+.secondcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infocontainer {
+    display: flex;
+    padding: 32px;
+}
+.infotext {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.alignmentcontainer {
+    display: flex;
+    gap: 28px;
+
+    
+}
+.illustrationcontainer {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.roundedborder1,.roundedborder2, .roundedborder3,.roundedborder4 {
+    border-radius: 25px;
+    border: 3px solid #3882f6;
+    width: 200px;
+    height: 150px;
+
+    
+}
+.imagesubcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    gap: 32px;
+    align-items: flex-start;
+    
+}
+.imagesubtext1, .imagesubtext2, .imagesubtext3, .imagesubtext4 {
+    display: flex; 
+    max-width: 200px;
 }
