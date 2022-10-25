@@ -81,11 +81,7 @@ button {
 
     
 }
-.illustrationcontainer {
-    display: flex;
-    flex-direction: column;
-    
-}
+
 
 .roundedborder1,.roundedborder2, .roundedborder3,.roundedborder4 {
     border-radius: 25px;
