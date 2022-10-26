@@ -65,6 +65,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 90px;
 }
 .infocontainer {
     display: flex;
@@ -77,29 +78,97 @@ button {
 }
 .alignmentcontainer {
     display: flex;
-    gap: 28px;
-
-    
+    gap: 28px;  
 }
-
-
 .roundedborder1,.roundedborder2, .roundedborder3,.roundedborder4 {
     border-radius: 25px;
     border: 3px solid #3882f6;
     width: 200px;
-    height: 150px;
-
-    
+    height: 150px; 
 }
 .imagesubcontainer {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
     gap: 32px;
-    align-items: flex-start;
-    
+    align-items: flex-start;  
 }
 .imagesubtext1, .imagesubtext2, .imagesubtext3, .imagesubtext4 {
     display: flex; 
     max-width: 200px;
+}
+.thirdcontainer {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quotecontainer {
+    max-width: 900px;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 80px;
+}
+.quoteauthor {
+    display: flex;
+    padding-left: 550px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.fourthcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.C2Acontainer {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 40px;
+     
+}
+.calltext {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 80px;
+    color: #e5e7eb;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.callbold {
+    font-weight: bold;
+}
+.C2Abutton {
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 5px;
+    border: 1px solid#f9faf8;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 8px 16px;
+    margin: 50px;
+    margin-right: 20px;
+
+}
+.copyrightcontainer {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+}
+.copyright {
+    color:#e5e7eb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+
 }
